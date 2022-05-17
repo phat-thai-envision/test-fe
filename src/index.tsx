@@ -1,8 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import "assets/fonts/SF-Pro/SF-Pro-Text-Black.otf";
+import "assets/fonts/SF-Pro/SF-Pro-Text-Bold.otf";
+import "assets/fonts/SF-Pro/SF-Pro-Text-Light.otf";
+import "assets/fonts/SF-Pro/SF-Pro-Text-Regular.otf";
+import "assets/fonts/SF-Pro/SF-Pro-Text-Medium.otf";
+import "assets/fonts/SF-Pro/SF-Pro-Text-Semibold.otf";
+import "assets/fonts/SF-Pro/SF-Pro-Text-Thin.otf";
+import "./normalize.module.scss";
+import App from "./App";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement

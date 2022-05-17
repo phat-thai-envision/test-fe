@@ -1,5 +1,3 @@
-import React from "react";
-
-const HomePage = React.memo(() => <div>This is home page</div>);
+import HomePage from "./Home";
 
 export default HomePage;

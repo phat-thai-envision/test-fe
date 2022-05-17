@@ -1,0 +1,27 @@
+.layoutCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100% - 40px);
+}
+
+.layoutContainer {
+}
+
+.header {
+  box-shadow: 0px 4px 12px #f7f9fc;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.headerTitle {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #151a30;
+}

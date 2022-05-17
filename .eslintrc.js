@@ -54,6 +54,17 @@ module.exports = {
         unnamedComponents: ["function-expression", "arrow-function"],
       },
     ],
+    "react/jsx-props-no-spreading": [
+      1,
+      {
+        html: "ignore",
+        custom: "ignore",
+        explicitSpread: "ignore",
+        exceptions: ["Image", "img"],
+      },
+    ],
+    "consistent-return": [0],
+    "@typescript-eslint/no-explicit-any": [0],
   },
   settings: {
     "import/resolver": {

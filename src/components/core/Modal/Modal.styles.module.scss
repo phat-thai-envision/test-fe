@@ -1,0 +1,12 @@
+.modalContainer {
+  position: fixed;
+  max-width: 414px;
+  min-width: 320px;
+  height: 100vh;
+  top: 0;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.5);
+}

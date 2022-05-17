@@ -1,0 +1,55 @@
+.sendContainer {
+  height: 100%;
+}
+
+.content {
+  display: flex;
+}
+
+.sendForm {
+  position: relative;
+  height: 100%;
+}
+
+.contentTitle {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #8f9bb3;
+  margin-right: 8px;
+}
+
+.contentDesc {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #8f9bb3;
+}
+
+.assetContent {
+  justify-content: space-between;
+}
+
+.assetId {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #151a30;
+  margin-left: 8px;
+}
+
+.buttonGroups {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 50px;
+  > button {
+    text-align: center;
+  }
+}

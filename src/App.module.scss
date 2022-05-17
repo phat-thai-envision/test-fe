@@ -1,3 +1,71 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.appContainer {
+  max-width: 414px;
+  min-width: 320px;
+  margin: auto;
+  height: 100vh;
+  border: solid 0.5px #67b8f8;
+  background-color: #fff;
+  position: relative;
+}
+
+body {
+  @font-face {
+    font-family: "SF Pro Text";
+    src: local("SF Pro Text"),
+      url("./assets/fonts/SF-Pro/SF-Pro-Text-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "SF Pro Text";
+    src: local("SF Pro Text"),
+      url("./assets/fonts/SF-Pro/SF-Pro-Text-Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "SF Pro Text";
+    src: local("SF Pro Text"),
+      url("./assets/fonts/SF-Pro/SF-Pro-Text-Semibold.otf") format("opentype");
+    font-weight: 600;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "SF Pro Text";
+    src: local("SF Pro Text"),
+      url("./assets/fonts/SF-Pro/SF-Pro-Text-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  * {
+    font-family: "SF Pro Text";
+    color: #151a30;
+    font-weight: 400;
+    box-sizing: border-box;
+    text-align: left;
+  }
+}
+.flex {
+  display: flex;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.absCenterVer {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.layoutPadding20 {
+  padding: 20px 20px 0 20px;
+}
+
+.mB16 {
+  margin-bottom: 16px;
+}
